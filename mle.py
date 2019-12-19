@@ -25,4 +25,5 @@ def MLE(X):
 	plt.plot(a,llh, marker='o')
 	plt.xticks(np.arange(0, 20, 1))
 	plt.show() 
+	print("Median =", median)
 	return 
